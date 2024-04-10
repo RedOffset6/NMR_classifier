@@ -1,0 +1,1903 @@
+training the neural network
+before activation: /mnt/storage/software/languages/miniconda/miniconda3.11.3-CompressAI-Vision0.1.3/bin/python
+after activation /user/home/jw20708/.conda/envs/classifier_env/bin/python
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+the length of the test loader is 247
+printing model running losses: [0.7138998106573567, 0.4877357805016065, 0.36423992252711096, 0.2635104094415602, 0.15578229117884554, 0.09113848169275143, 0.04033102312792155, 0.02262909401405054, 0.039223494721024064, 0.07349023788180667]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d3c0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb426d2d0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[957 317]
+ [334 854]]
+Class Labels:
+['Negative', 'Positive']
+there were 1811 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 73.55808285946385%
+the length of the test loader is 247
+printing model running losses: [0.6232538197825594, 0.46341627318321205, 0.37039164710426475, 0.2860381139321177, 0.1904885447044607, 0.11383861737284143, 0.0740233051452615, 0.06021903523187242, 0.03423907296143949, 0.03679067842218049]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1030>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1038  236]
+ [ 293  895]]
+Class Labels:
+['Negative', 'Positive']
+there were 1933 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 78.51340373679935%
+the length of the test loader is 247
+printing model running losses: [0.5040466004368013, 0.3901021977063968, 0.31384160509947595, 0.23870369019506849, 0.16048380564005932, 0.10646550654553555, 0.0734274881375184, 0.052870290799659846, 0.05118071130770507, 0.0362775654907678]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8de6fca0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d11b0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[ 958  316]
+ [ 177 1011]]
+Class Labels:
+['Negative', 'Positive']
+there were 1969 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 79.97562956945573%
+the length of the test loader is 247
+printing model running losses: [0.5653908291786183, 0.4253155841999422, 0.3445588190797565, 0.2617691239944046, 0.17925251851746116, 0.11862104544535561, 0.07526524108515686, 0.04703063052377219, 0.035487506801362076, 0.0292107023503804]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423acb0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d17b0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1020  254]
+ [ 289  899]]
+Class Labels:
+['Negative', 'Positive']
+there were 1919 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 77.94476035743298%
+the length of the test loader is 247
+printing model running losses: [0.5335096902497437, 0.40399489490234336, 0.33193339124267945, 0.2591705806013467, 0.18160632709581134, 0.10453272683004362, 0.0703642331296723, 0.056157474820241346, 0.03970474625042377, 0.038477771447933816]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426da50>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1960>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1051  223]
+ [ 294  894]]
+Class Labels:
+['Negative', 'Positive']
+there were 1945 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 79.00081234768481%
+the length of the test loader is 247
+printing model running losses: [1.233590877056122, 1.0044119954109192, 0.7568078935146332, 0.6529880464076996, 0.4106680877506733, 0.19173640459775926, 0.16771041192114353, 0.0940192517824471, 0.05676625866326503, 0.06238325758458814]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d150>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d15a0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[836 438]
+ [285 903]]
+Class Labels:
+['Negative', 'Positive']
+there were 1739 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 70.63363119415109%
+the length of the test loader is 915
+printing model running losses: [0.6790099301950527, 0.5737900335769184, 0.5152165027834027, 0.41074735272288976, 0.2967336704582994, 0.18034795657578917, 0.07477036872570933, 0.053830613250035436, 0.049725931976780505, 0.05115751167157293]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d3c0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1c30>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3104 1469]
+ [1419 3150]]
+Class Labels:
+['Negative', 'Positive']
+there were 6254 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 68.40953839422446%
+the length of the test loader is 915
+printing model running losses: [0.5614940017942591, 0.46281793413672057, 0.3861181342753762, 0.28913461158012865, 0.19379518132911863, 0.1280628258624339, 0.08426413549096044, 0.06508061193799745, 0.05008767769959265, 0.04179614973027277]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426c1f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1d20>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3441 1132]
+ [ 984 3585]]
+Class Labels:
+['Negative', 'Positive']
+there were 7026 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 76.85408007000656%
+the length of the test loader is 915
+printing model running losses: [0.81043509695981, 0.7091123687254416, 0.6874360538817741, 0.6372642339886846, 0.5741079256341264, 0.4359175023194906, 0.25306781874717893, 0.10817829524544445, 0.021178292783883376, 0.004375780936661121]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d060>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1e40>
+Confusion Matrix:
+['Negative', 'Positive']
+[[2992 1581]
+ [1940 2629]]
+Class Labels:
+['Negative', 'Positive']
+there were 5621 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 61.4854517611026%
+the length of the test loader is 915
+printing model running losses: [0.6005404065090688, 0.49717990154611275, 0.41291934204124375, 0.2984381075747344, 0.17452584869581433, 0.09530670129290474, 0.06172685656955999, 0.04631760025229945, 0.03646043619919868, 0.03155674670328839]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cee0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1d50>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3414 1159]
+ [1242 3327]]
+Class Labels:
+['Negative', 'Positive']
+there were 6741 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 73.73660030627872%
+the length of the test loader is 915
+printing model running losses: [0.5756095065560658, 0.4824175057816319, 0.4062231858522864, 0.30723069710293205, 0.19776183025119282, 0.11648319735716264, 0.07887425193383599, 0.060373075235446806, 0.04959257908727301, 0.042179721134871735]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d6c0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2080>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3412 1161]
+ [1203 3366]]
+Class Labels:
+['Negative', 'Positive']
+there were 6778 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 74.141325749289%
+the length of the test loader is 915
+printing model running losses: [0.6311464950898805, 0.5298221781360763, 0.45938430828423416, 0.36577686476694415, 0.25608142263498523, 0.1469327970528267, 0.08247152959429752, 0.054310051538023194, 0.04027865801888276, 0.03454917035029909]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d3f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d21a0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3197 1376]
+ [1237 3332]]
+Class Labels:
+['Negative', 'Positive']
+there were 6529 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 71.41763290308467%
+the length of the test loader is 355
+printing model running losses: [0.38788855353785984, 0.23374458556826422, 0.18181622504535536, 0.12652399090418295, 0.07207753133897862, 0.050199819873937415, 0.03108559810202794, 0.025612951261345156, 0.02830456564883821, 0.01208572120724511]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cfd0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d22c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1550  208]
+ [ 186 1597]]
+Class Labels:
+['Negative', 'Positive']
+there were 3147 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 88.87319966111268%
+the length of the test loader is 355
+printing model running losses: [0.36553522703921304, 0.22787722269581975, 0.1786062894023915, 0.13694720563840643, 0.08311528155387797, 0.05445943601919061, 0.037052796428020535, 0.035261163414551426, 0.020000619081522477, 0.01626546901958612]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426c2b0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2380>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1547  211]
+ [ 202 1581]]
+Class Labels:
+['Negative', 'Positive']
+there were 3128 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 88.33662807116633%
+the length of the test loader is 355
+printing model running losses: [0.8070643183211206, 0.5442415271216715, 0.32790530179168137, 0.2315320677622418, 0.15450258072282017, 0.09500775312919589, 0.042499440917670425, 0.02054792706103335, 0.009670189714796345, 0.003655862708194508]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426e4a0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d24a0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1452  306]
+ [ 201 1582]]
+Class Labels:
+['Negative', 'Positive']
+there were 3034 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 85.6820107314318%
+the length of the test loader is 355
+printing model running losses: [0.44615594303961525, 0.25195951209703493, 0.1986969459465163, 0.14416592253887062, 0.08559107887774862, 0.0438238726705747, 0.03592792174331545, 0.018900998678498503, 0.020134737515051224, 0.018788373884970205]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cee0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d25c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1476  282]
+ [ 216 1567]]
+Class Labels:
+['Negative', 'Positive']
+there were 3043 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 85.93617622140638%
+the length of the test loader is 355
+printing model running losses: [0.33889554331937494, 0.22264381654918108, 0.17922267191082958, 0.12575982011004003, 0.07951804539273222, 0.045733937507852235, 0.030603657864240227, 0.023049106944862625, 0.01879857360213287, 0.013686721678653225]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d660>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d26e0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1540  218]
+ [ 144 1639]]
+Class Labels:
+['Negative', 'Positive']
+there were 3179 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 89.77689918102232%
+the length of the test loader is 355
+printing model running losses: [1.6783764640490213, 0.8342073162396749, 0.7590995868047078, 0.6910690824190776, 0.5299227386713028, 0.3844858328501383, 0.22408924922347068, 0.15127072520554066, 0.16592525392770768, 0.11752208148439726]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d4b0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2800>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1334  424]
+ [ 369 1414]]
+Class Labels:
+['Negative', 'Positive']
+there were 2748 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 77.60519627223948%
+the length of the test loader is 143
+printing model running losses: [1.7233704030513763, 0.7270431518554688, 0.7187176048755646, 0.8071579337120056, 0.7254551748434702, 0.7340121765931448, 0.6927997569243113, 0.6918594141801199, 0.6373425324757894, 0.35810444007317227]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d330>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2920>
+Confusion Matrix:
+['Negative', 'Positive']
+[[293 450]
+ [ 18 667]]
+Class Labels:
+['Negative', 'Positive']
+there were 960 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 67.22689075630252%
+the length of the test loader is 143
+printing model running losses: [0.3568742269417271, 0.22016944615286774, 0.16855637572938575, 0.1175098620292556, 0.06667540793781881, 0.031083257530335685, 0.04376272904226298, 0.021579384271587152, 0.0053660919506400215, 0.04080260604700019]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cf40>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d26e0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[681  62]
+ [ 60 625]]
+Class Labels:
+['Negative', 'Positive']
+there were 1306 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 91.45658263305322%
+the length of the test loader is 143
+printing model running losses: [0.6545981453698978, 0.31943286484793615, 0.2201614900443115, 0.15612965524033234, 0.07153921079282698, 0.03560313480665444, 0.028153081967510638, 0.027092248444814646, 0.02673299739433931, 0.010556878361138675]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d2a0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2800>
+Confusion Matrix:
+['Negative', 'Positive']
+[[665  78]
+ [ 85 600]]
+Class Labels:
+['Negative', 'Positive']
+there were 1265 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 88.58543417366947%
+the length of the test loader is 143
+printing model running losses: [0.4903559592272435, 0.2510391308313848, 0.17843219832683282, 0.10223609206353809, 0.07187825982121855, 0.04612704883292936, 0.006563552841907313, 0.00230573312743135, 0.0007469063807591931, 0.0005513330624010257]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cee0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2920>
+Confusion Matrix:
+['Negative', 'Positive']
+[[683  60]
+ [ 70 615]]
+Class Labels:
+['Negative', 'Positive']
+there were 1298 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 90.89635854341736%
+the length of the test loader is 143
+printing model running losses: [0.42969404611658385, 0.22993326677543507, 0.1674979553982075, 0.10503647179696479, 0.060463256506921366, 0.046872939029619226, 0.02643078562690848, 0.033163994103966865, 0.01503264660769859, 0.021369411464387096]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426da50>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d26e0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[675  68]
+ [ 75 610]]
+Class Labels:
+['Negative', 'Positive']
+there were 1285 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 89.9859943977591%
+the length of the test loader is 143
+printing model running losses: [0.34292986390337193, 0.20953472127276634, 0.16173062240043443, 0.10728068915053805, 0.07354893042787064, 0.0440859382653746, 0.030816660120311017, 0.04148955326476683, 0.02310538421518684, 0.017566315688996817]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d150>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2ce0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[676  67]
+ [ 52 633]]
+Class Labels:
+['Negative', 'Positive']
+there were 1309 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 91.66666666666667%
+the length of the test loader is 1324
+printing model running losses: [0.4559096665215878, 0.3549432249943375, 0.281286615321561, 0.20071797696766713, 0.13025425498202228, 0.08261661744917596, 0.05573621696047062, 0.04072037669219636, 0.0350472787959905, 0.03142206219795632]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d3c0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2920>
+Confusion Matrix:
+['Negative', 'Positive']
+[[5562 1041]
+ [1241 5387]]
+Class Labels:
+['Negative', 'Positive']
+there were 10949 correct attempts
+There were 13231 samples
+there were 66156 images in the test dataset
+The accuracy of the model is 82.75262640767893%
+the length of the test loader is 1324
+printing model running losses: [0.43223963062960397, 0.33791092781558696, 0.26262343032526625, 0.17782242958954836, 0.111406802361341, 0.06717074194252026, 0.04564106535826665, 0.035087029479091925, 0.029569154617686444, 0.025561468201327233]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426c1f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2fb0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[5611  992]
+ [1085 5543]]
+Class Labels:
+['Negative', 'Positive']
+there were 11154 correct attempts
+There were 13231 samples
+there were 66156 images in the test dataset
+The accuracy of the model is 84.30201798805835%
+the length of the test loader is 335
+printing model running losses: [0.2222321324013205, 0.03397722497634665, 0.026909215783221026, 0.42368322040863804, 0.02237480089728839, 0.007995197821184068, 0.003969744884514588, 0.0005173415851162939, 0.00021820045071789144, 0.00012113812911978591]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d060>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2d40>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1642   10]
+ [  28 1661]]
+Class Labels:
+['Negative', 'Positive']
+there were 3303 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 98.86261598323856%
+the length of the test loader is 335
+printing model running losses: [0.13361057707948604, 0.04778953365593217, 0.02252964747000484, 0.011843758836444236, 0.004693288370277863, 0.08497447047295767, 0.011336326130731083, 0.0014967213612334786, 0.0011627215532057878, 0.0004273186791698798]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cee0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3400>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1645    7]
+ [  23 1666]]
+Class Labels:
+['Negative', 'Positive']
+there were 3311 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.10206524992518%
+the length of the test loader is 335
+printing model running losses: [2.278646860803877, 1.048381575516292, 0.8276933346475873, 0.7191662618092128, 0.6546167773859841, 0.35596889576741625, 0.3037453123501369, 0.08320927500192608, 0.0387382520213058, 0.09430979809881787]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8b968a00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d34c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1439  213]
+ [  65 1624]]
+Class Labels:
+['Negative', 'Positive']
+there were 3063 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 91.67913798263993%
+the length of the test loader is 335
+printing model running losses: [0.12262559907090331, 0.03047191251376341, 0.052010577586980085, 0.016243446108502466, 0.009840909040512172, 0.010342820473372382, 0.5052078661116982, 0.10281175454758276, 0.024545040320915708, 0.00830482948695813]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d3f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3640>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1642   10]
+ [  23 1666]]
+Class Labels:
+['Negative', 'Positive']
+there were 3308 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.01227177491769%
+the length of the test loader is 335
+printing model running losses: [0.1398722951522246, 0.06862129538592586, 0.01647435657202646, 0.008640285819524038, 0.21280385916754144, 0.0054825929752755, 0.00200533218881054, 0.0012218216241011678, 0.001680573748394577, 0.0010044157275344355]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cfd0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3760>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1648    4]
+ [  25 1664]]
+Class Labels:
+['Negative', 'Positive']
+there were 3312 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.131996408261%
+the length of the test loader is 335
+printing model running losses: [0.5547036763933078, 0.09640034780451644, 0.030199637865110558, 0.0069925752736491745, 0.0040147575923061875, 0.0014737024035353034, 0.0005851527510142434, 0.0007658653801044023, 0.16052814250414088, 0.0403482583834695]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426c2b0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3880>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1618   34]
+ [  69 1620]]
+Class Labels:
+['Negative', 'Positive']
+there were 3238 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 96.91709069140975%
+the length of the test loader is 366
+printing model running losses: [0.18941709761455064, 0.07257400314980475, 0.04716438707527416, 0.03487961594078297, 0.023479618532010076, 0.018311938600099133, 0.014172226915497773, 0.014404005829320618, 0.006901761905707583, 0.0036886546689778405]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426e4a0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d39a0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1794   33]
+ [  51 1774]]
+Class Labels:
+['Negative', 'Positive']
+there were 3568 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 97.69989047097481%
+the length of the test loader is 366
+printing model running losses: [0.1915264003000978, 0.08806964184921316, 0.05364745299047882, 0.04375282530605353, 0.019768448226572966, 0.015143234771853914, 0.01552504802361115, 0.004889637020362759, 0.008620567647938192, 0.003993893377180757]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cee0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d39d0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1788   39]
+ [  62 1763]]
+Class Labels:
+['Negative', 'Positive']
+there were 3551 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 97.23439211391019%
+the length of the test loader is 366
+printing model running losses: [1.2783966104189555, 0.744368306795756, 0.35321299235026044, 0.12229288435385872, 0.07817684003578809, 0.16239818745913606, 0.04058247572672068, 0.013727808491360823, 0.004474453049988369, 0.0006155200513300467]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8dd19300>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d38b0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1708  119]
+ [ 245 1580]]
+Class Labels:
+['Negative', 'Positive']
+there were 3288 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 90.03285870755751%
+the length of the test loader is 366
+printing model running losses: [0.14740591291277497, 0.06256062918766755, 0.047909050208126046, 0.02245926704431364, 0.013214742406006993, 0.015428781337760721, 0.009661532309684858, 0.009931770545707158, 0.012373848128940771, 0.008563094118119804]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d4b0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3c10>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1790   37]
+ [  35 1790]]
+Class Labels:
+['Negative', 'Positive']
+there were 3580 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 98.02847754654984%
+the length of the test loader is 366
+printing model running losses: [0.36319498025193453, 0.12916157625285488, 0.09624762365374034, 0.053586089837670894, 0.029012918391085225, 0.02233087744708472, 0.006004605146878977, 0.0011668225166756342, 0.0002604323425177318, 0.00013559502604605398]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d330>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3d30>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1746   81]
+ [  83 1742]]
+Class Labels:
+['Negative', 'Positive']
+there were 3488 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 95.50930996714129%
+the length of the test loader is 366
+printing model running losses: [0.2845533920005474, 0.09572396424115788, 0.051617847709155895, 0.03863159418947985, 0.01598086351828462, 0.016384190654400842, 0.01664391369631387, 0.2127109036579911, 0.0061737911299771684, 0.0008935628325480197]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cf40>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3e50>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1750   77]
+ [  49 1776]]
+Class Labels:
+['Negative', 'Positive']
+there were 3526 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 96.54983570646222%
+the length of the test loader is 330
+printing model running losses: [0.5686946750308076, 0.3496776987713846, 0.25819704913054453, 0.16628483070102942, 0.09744679355957708, 0.037702075259816906, 0.0793830537090464, 0.07334192097867957, 0.008385038621703592, 0.001486434200898035]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d2a0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3c70>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1358  289]
+ [ 227 1418]]
+Class Labels:
+['Negative', 'Positive']
+there were 2776 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 84.32563791008505%
+the length of the test loader is 330
+printing model running losses: [0.38415720698611644, 0.24974722269786825, 0.19167809639894862, 0.12362048201095482, 0.07047201254471791, 0.043909088165547804, 0.040868240249581377, 0.0249909394177698, 0.07536830500483342, 0.01610164047594218]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426cee0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3f70>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1459  188]
+ [ 193 1452]]
+Class Labels:
+['Negative', 'Positive']
+there were 2911 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 88.42648845686513%
+the length of the test loader is 330
+printing model running losses: [0.3632386298242487, 0.2251640835438455, 0.1614755982628844, 0.09666479958700006, 0.048668022378154735, 0.03101470560509939, 0.02102159034967997, 0.02223007647288055, 0.013998070897317966, 0.013496938052449482]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3fa0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1510  137]
+ [ 211 1434]]
+Class Labels:
+['Negative', 'Positive']
+there were 2944 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 89.42891859052249%
+the length of the test loader is 330
+printing model running losses: [1.3987194342272622, 0.8036716750689915, 0.5249679344041007, 0.33987105957099367, 0.2538199607016785, 0.20326680545154627, 0.09390387092051762, 0.051778773804731566, 0.02440802545541893, 0.022111365459165557]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d150>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec040>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1373  274]
+ [ 596 1049]]
+Class Labels:
+['Negative', 'Positive']
+there were 2422 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 73.57229647630619%
+the length of the test loader is 330
+printing model running losses: [0.4730445990469137, 0.2826293088314562, 0.2087403862563027, 0.14381034688643352, 0.08189201934154436, 0.039080053028611283, 0.031343478901603945, 0.025051423296107028, 0.0056743612116787615, 0.0006516410982941806]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d3c0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec430>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1443  204]
+ [ 225 1420]]
+Class Labels:
+['Negative', 'Positive']
+there were 2863 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 86.96840826245443%
+the length of the test loader is 330
+printing model running losses: [0.36145320480311627, 0.24651009068254143, 0.17568960514887658, 0.11536129281401948, 0.06142069849339783, 0.04082223025968023, 0.02586300713301314, 0.025336784046637157, 0.0365710824412381, 0.01732169673691132]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426c1f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec670>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1473  174]
+ [ 167 1478]]
+Class Labels:
+['Negative', 'Positive']
+there were 2951 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 89.6415552855407%
+the length of the test loader is 247
+printing model running losses: [0.8872441354424062, 0.7044777828033524, 0.7136881372543297, 0.61565160600826, 0.5525322013130092, 0.4791992910281576, 0.42854640640393654, 0.38589722986775216, 0.32895246471720513, 0.2578573308960356]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d060>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec3a0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1021  253]
+ [ 350  838]]
+Class Labels:
+['Negative', 'Positive']
+there were 1859 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 75.50771730300569%
+the length of the test loader is 247
+printing model running losses: [0.7790116953655957, 0.601738694479795, 0.5156896300311011, 0.46042180230947044, 0.40020856161306545, 0.361859329347688, 0.3104667841358398, 0.2478637756719216, 0.1912726134126173, 0.1690238496568811]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3c70>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec610>
+Confusion Matrix:
+['Negative', 'Positive']
+[[965 309]
+ [271 917]]
+Class Labels:
+['Negative', 'Positive']
+there were 1882 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 76.44191714053615%
+the length of the test loader is 247
+printing model running losses: [0.5783394812932474, 0.46832137121464396, 0.42054343217520546, 0.3708763783504515, 0.3120213716371259, 0.26011304164466065, 0.2096483952271265, 0.16646278170079257, 0.12616992071634373, 0.10378116115299527]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426c1f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec4f0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1116  158]
+ [ 339  849]]
+Class Labels:
+['Negative', 'Positive']
+there were 1965 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 79.81316003249391%
+the length of the test loader is 247
+printing model running losses: [0.6657759671409925, 0.516299929742406, 0.47783465468423153, 0.43299024038743683, 0.4007591900483864, 0.3714211881160736, 0.3065318589939213, 0.2569234999922687, 0.2022551243208591, 0.16191526400187994]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb6dec640>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1080  194]
+ [ 326  862]]
+Class Labels:
+['Negative', 'Positive']
+there were 1942 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 78.87896019496344%
+the length of the test loader is 247
+printing model running losses: [0.6542540081385253, 0.4986153095744658, 0.44859937264219574, 0.40554500440324565, 0.36223623258588106, 0.31101484196395546, 0.2589673278077195, 0.20546462093075007, 0.16408798912813402, 0.1253380635053095]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d330>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb423ab00>
+Confusion Matrix:
+['Negative', 'Positive']
+[[988 286]
+ [228 960]]
+Class Labels:
+['Negative', 'Positive']
+there were 1948 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 79.12266450040617%
+the length of the test loader is 247
+printing model running losses: [1.6496073603630066, 0.8973461747169494, 0.7306512594223022, 0.7456978619098663, 0.7548879384994507, 0.732402241230011, 0.7002476394176483, 0.707328200340271, 0.7007157921791076, 0.6954627931118011]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8de6fca0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb426d480>
+Confusion Matrix:
+['Negative', 'Positive']
+[[732 542]
+ [514 674]]
+Class Labels:
+['Negative', 'Positive']
+there were 1406 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 57.10804224207961%
+the length of the test loader is 915
+printing model running losses: [0.506149904911949, 0.39089598555279814, 0.3545727946156051, 0.31459844751053817, 0.2788515341210176, 0.24409761645859562, 0.20745941304158702, 0.1786179142332479, 0.14700184963689836, 0.12688197737738882]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb426d240>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3760>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3934  639]
+ [ 966 3603]]
+Class Labels:
+['Negative', 'Positive']
+there were 7537 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 82.44366659374316%
+the length of the test loader is 915
+printing model running losses: [0.5474576938766404, 0.38945750970742665, 0.34964605265995485, 0.3146040634226665, 0.2715539553340932, 0.2277582499616983, 0.18340261320434478, 0.1447325118598272, 0.11260549061358631, 0.08496320642872028]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb426d540>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3545 1028]
+ [ 569 4000]]
+Class Labels:
+['Negative', 'Positive']
+there were 7545 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 82.53117479763728%
+the length of the test loader is 355
+printing model running losses: [0.6801197689636952, 0.6213935168281113, 0.5929051850222599, 0.5653287628402481, 0.5368989644793131, 0.49708965579626585, 0.4523394707127311, 0.3916256178149396, 0.329783393227953, 0.25817515298271665]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1240>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abb8de6fca0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1273  485]
+ [ 627 1156]]
+Class Labels:
+['Negative', 'Positive']
+there were 2429 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 68.59644168314036%
+the length of the test loader is 355
+printing model running losses: [0.6613499435085443, 0.597881197598913, 0.5563637515710246, 0.5190980732290735, 0.4661226947191021, 0.39730368038984915, 0.3176756193823812, 0.2473584386940685, 0.17429664008053689, 0.13050963885120104]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3760>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1c90>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1240  518]
+ [ 646 1137]]
+Class Labels:
+['Negative', 'Positive']
+there were 2377 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 67.1279299632872%
+the length of the test loader is 355
+printing model running losses: [0.7987155104187172, 0.708399622373178, 0.6706348892668603, 0.6552837253876136, 0.6720593590551699, 0.6094447189653424, 0.552824929356575, 0.4973847359208993, 0.42560016043799026, 0.36781623838862904]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1f30>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1142  616]
+ [ 674 1109]]
+Class Labels:
+['Negative', 'Positive']
+there were 2251 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 63.569613103643036%
+the length of the test loader is 355
+printing model running losses: [0.7305824334843684, 0.6611171629132524, 0.6263582309087118, 0.5935149252162142, 0.5473222219001102, 0.5162786114855674, 0.47407276604303533, 0.4143704520906769, 0.35804939058498814, 0.29267473515691395]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d0eb0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1154  604]
+ [ 606 1177]]
+Class Labels:
+['Negative', 'Positive']
+there were 2331 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 65.82886190341712%
+the length of the test loader is 355
+printing model running losses: [0.6545048927705559, 0.5877247321180836, 0.5594797104954635, 0.526663567011173, 0.48356241797509125, 0.42988588720370785, 0.37625960973351036, 0.31630513487264106, 0.2583802975668199, 0.20794759993794676]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1750>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1285  473]
+ [ 591 1192]]
+Class Labels:
+['Negative', 'Positive']
+there were 2477 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 69.9519909630048%
+the length of the test loader is 355
+printing model running losses: [1.1264561851819357, 0.7308837135632833, 0.7281191229820252, 0.6903926928838094, 0.7616273562113444, 0.7462982853253682, 0.7094549417495728, 0.7061073025067647, 0.7005306959152222, 0.6781957785288493]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1ff0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1738   20]
+ [1740   43]]
+Class Labels:
+['Negative', 'Positive']
+there were 1781 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 50.29652640497035%
+the length of the test loader is 143
+printing model running losses: [1.809662640094757, 1.1127283175786336, 0.7339941759904226, 0.7676551540692648, 0.7424723406632742, 0.7203092277050018, 0.7090561191240946, 0.6293353537718455, 0.5108829935391744, 0.4299816812078158]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1000>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[583 160]
+ [402 283]]
+Class Labels:
+['Negative', 'Positive']
+there were 866 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 60.64425770308123%
+the length of the test loader is 143
+printing model running losses: [0.5974336821213364, 0.4499820848554373, 0.40162527303677054, 0.3354780886135995, 0.2895644411887042, 0.22965047476813197, 0.17703334569465368, 0.12363912561559118, 0.08043973472660582, 0.05691638997467635]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1b70>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[601 142]
+ [131 554]]
+Class Labels:
+['Negative', 'Positive']
+there were 1155 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 80.88235294117646%
+the length of the test loader is 143
+printing model running losses: [0.9527468409454614, 0.6138916313648224, 0.6446552501435865, 0.5598228531971312, 0.541999337965982, 0.4567408347338961, 0.41139923454376687, 0.3602052937474167, 0.2822406121382588, 0.2076480950049141]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2200>
+Confusion Matrix:
+['Negative', 'Positive']
+[[580 163]
+ [191 494]]
+Class Labels:
+['Negative', 'Positive']
+there were 1074 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 75.21008403361344%
+the length of the test loader is 143
+printing model running losses: [0.743588320442013, 0.518597863875069, 0.4684716699631898, 0.3940233505376569, 0.3389016810309637, 0.27247143852022976, 0.19866052542819634, 0.14137491872867933, 0.08792073483773429, 0.05045879821877575]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d10c0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[602 141]
+ [175 510]]
+Class Labels:
+['Negative', 'Positive']
+there were 1112 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 77.87114845938375%
+the length of the test loader is 143
+printing model running losses: [0.6741209681425895, 0.5489504446464402, 0.44949285506264314, 0.38708823640550766, 0.33747225210487425, 0.27526003611436883, 0.225405005160133, 0.1679961914961858, 0.12977033575080496, 0.09605918838125588]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3760>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[557 186]
+ [126 559]]
+Class Labels:
+['Negative', 'Positive']
+there were 1116 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 78.15126050420169%
+the length of the test loader is 143
+printing model running losses: [0.5637555166792411, 0.3947377532355852, 0.32966281610729914, 0.2748728339377973, 0.21713910975543965, 0.15635157016149095, 0.12310918944971669, 0.08445103683009626, 0.05839954532257411, 0.04901919015617728]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2890>
+Confusion Matrix:
+['Negative', 'Positive']
+[[577 166]
+ [111 574]]
+Class Labels:
+['Negative', 'Positive']
+there were 1151 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 80.60224089635854%
+the length of the test loader is 1324
+printing model running losses: [0.4907326633495981, 0.4221865353374215, 0.37791312648338504, 0.337379805896598, 0.29499056706253923, 0.2531099783851549, 0.21252247645151404, 0.17369303865691643, 0.1478362684516282, 0.12221409856917005]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1510>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[5213 1390]
+ [1037 5591]]
+Class Labels:
+['Negative', 'Positive']
+there were 10804 correct attempts
+There were 13231 samples
+there were 66156 images in the test dataset
+The accuracy of the model is 81.6567152898496%
+the length of the test loader is 335
+printing model running losses: [0.6059761767393784, 0.07859273833212262, 0.06787472128903912, 0.03758685795395677, 0.03471905583661934, 0.025813382170241286, 0.02427996966697475, 0.02496532834117322, 0.019990003425669926, 0.012038602842141687]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2ec0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1615   37]
+ [  29 1660]]
+Class Labels:
+['Negative', 'Positive']
+there were 3275 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 98.02454354983539%
+the length of the test loader is 335
+printing model running losses: [0.3767712147606196, 0.05366950152399548, 0.045156719001137095, 0.04364029178632909, 0.03730679674446697, 0.04011790811399024, 0.03141111369363905, 0.02449700528276111, 0.026129071195911593, 0.01855819236396135]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1de0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1647    5]
+ [  40 1649]]
+Class Labels:
+['Negative', 'Positive']
+there were 3296 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 98.65309787488776%
+the length of the test loader is 335
+printing model running losses: [1.550822845527104, 0.7941484749317169, 0.7179824326719556, 0.6830658188888005, 0.745168502841677, 0.7470751617635999, 0.7226144799164363, 0.703084375177111, 0.7503263034990856, 0.7982774419443948]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d23b0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[  21 1631]
+ [   7 1682]]
+Class Labels:
+['Negative', 'Positive']
+there were 1703 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 50.97276264591439%
+the length of the test loader is 335
+printing model running losses: [0.14653917646149525, 0.06091325909087659, 0.04797822115848376, 0.041826286810674934, 0.037910569770987, 0.04800542543560612, 0.03169800380425732, 0.024569691686450883, 0.02081718017391036, 0.016435961101148578]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2950>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1634   18]
+ [  36 1653]]
+Class Labels:
+['Negative', 'Positive']
+there were 3287 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 98.38371744986532%
+the length of the test loader is 335
+printing model running losses: [0.27357512570018, 0.05333757347299631, 0.1593949833803547, 0.06163143490821203, 0.03604384578371465, 0.029297781137923615, 0.024294314890469224, 0.022382201830772316, 0.017729651853688317, 0.014560322448059848]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2260>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1613   39]
+ [  27 1662]]
+Class Labels:
+['Negative', 'Positive']
+there were 3275 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 98.02454354983539%
+the length of the test loader is 335
+printing model running losses: [0.7719712737780898, 0.5226488819540437, 0.13334288982042014, 0.07118478685586171, 0.05266129583290408, 0.03804479148389032, 0.03369218597211995, 0.020913657829853764, 0.028821420226151206, 0.01911699645129612]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2650>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1632   20]
+ [  37 1652]]
+Class Labels:
+['Negative', 'Positive']
+there were 3284 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 98.29392397485783%
+the length of the test loader is 366
+printing model running losses: [0.2946795258276849, 0.20192546879086107, 0.19283080057371663, 0.1520962034785011, 0.12462574967528209, 0.09489529352529427, 0.07274481489433374, 0.05439832537671094, 0.04083354707996727, 0.027738438593001118]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2380>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1693  134]
+ [ 142 1683]]
+Class Labels:
+['Negative', 'Positive']
+there were 3376 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 92.44249726177436%
+the length of the test loader is 366
+printing model running losses: [0.3812218795628599, 0.21526411118013875, 0.18704891893722847, 0.4895990007796972, 0.6954752302202415, 0.694249010770983, 0.6945398687174806, 0.6941466563866664, 0.6942299540000477, 0.6935147875474025]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2020>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1827    0]
+ [1825    0]]
+Class Labels:
+['Negative', 'Positive']
+there were 1827 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 50.02738225629792%
+the length of the test loader is 366
+printing model running losses: [1.2753544410069784, 0.7159272054831187, 0.662506029009819, 0.4204267144203186, 0.4324693967898687, 0.49469212591648104, 0.3642371942599614, 0.22374599575996398, 0.20683753214155634, 0.19892152038713296]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1360>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1540  287]
+ [ 282 1543]]
+Class Labels:
+['Negative', 'Positive']
+there were 3083 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 84.41949616648412%
+the length of the test loader is 366
+printing model running losses: [0.3002327630423203, 0.19527974754992955, 0.16671479535467595, 0.14357382658140674, 0.11745688624064379, 0.09726696515100021, 0.07784301599675804, 0.0615781418194808, 0.048851628006131936, 0.03984918747764948]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d30a0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1707  120]
+ [  92 1733]]
+Class Labels:
+['Negative', 'Positive']
+there were 3440 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 94.19496166484119%
+the length of the test loader is 366
+printing model running losses: [0.7222648892959912, 0.29530115323523953, 0.24893435021887902, 0.2290092461219389, 0.19260806101693273, 0.18950199404067986, 0.26052242495464034, 0.15193429654097337, 0.1267764580209599, 0.08950624537290623]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d33d0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1638  189]
+ [ 152 1673]]
+Class Labels:
+['Negative', 'Positive']
+there were 3311 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 90.66265060240964%
+the length of the test loader is 366
+printing model running losses: [0.38257942975894227, 0.25300948037829707, 0.22767351206315503, 0.20714815929532052, 0.17600798903109685, 0.15424528870961232, 0.14587904142362562, 0.10751237703905096, 0.0869167736547677, 0.08311527460216096]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d25f0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1641  186]
+ [ 122 1703]]
+Class Labels:
+['Negative', 'Positive']
+there were 3344 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 91.56626506024097%
+the length of the test loader is 330
+printing model running losses: [0.7811270667748018, 0.7008730514031468, 0.6859410477407051, 0.6804024423613693, 0.6612024957483466, 0.6268502257087014, 0.5981371109232758, 0.5342540111054074, 0.4992665344792785, 0.42017698203298176]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3070>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1280  367]
+ [ 552 1093]]
+Class Labels:
+['Negative', 'Positive']
+there were 2373 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 72.08383961117862%
+the length of the test loader is 330
+printing model running losses: [0.6831895402648199, 0.5615098439552715, 0.5110013591682423, 0.4656920712639059, 0.41785394823198435, 0.364560687120252, 0.30932905555495, 0.24467556411806743, 0.1785446789337711, 0.12468017205520097]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3af0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1239  408]
+ [ 428 1217]]
+Class Labels:
+['Negative', 'Positive']
+there were 2456 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 74.60510328068044%
+the length of the test loader is 330
+printing model running losses: [0.6275444227823357, 0.5044609674497059, 0.4624239262391294, 0.4203439905733571, 0.3734403384244564, 0.3205988976867002, 0.2635854384459114, 0.20505250604559663, 0.1646143502737256, 0.12942414154574494]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3100>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1570>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1242  405]
+ [ 409 1236]]
+Class Labels:
+['Negative', 'Positive']
+there were 2478 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 75.273390036452%
+the length of the test loader is 330
+printing model running losses: [2.268609651497432, 0.8848982070173536, 0.7893860680716378, 0.7071017495223454, 0.7004064662115914, 0.7546782876764025, 0.7113752279962812, 0.6962246000766754, 0.6916989428656442, 0.6822181344032288]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2830>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1388  259]
+ [1228  417]]
+Class Labels:
+['Negative', 'Positive']
+there were 1805 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 54.82989064398542%
+the length of the test loader is 330
+printing model running losses: [0.7279387625517454, 0.6857453158923558, 0.6950635078467859, 0.6724107478346143, 0.6413197257417314, 0.5579682017441578, 0.5102972908675851, 0.4610090447776586, 0.40291964169874744, 0.32509800159629987]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3a30>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1376  271]
+ [ 627 1018]]
+Class Labels:
+['Negative', 'Positive']
+there were 2394 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 72.72174969623329%
+the length of the test loader is 330
+printing model running losses: [0.6915357491716646, 0.5515708667822101, 0.4937374592635482, 0.4498046971291885, 0.4009162522690803, 0.34591370567663243, 0.2806619274876446, 0.2144550208412434, 0.16250937587279551, 0.1132395648851432]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d37f0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1212  435]
+ [ 344 1301]]
+Class Labels:
+['Negative', 'Positive']
+there were 2513 correct attempts
+There were 3292 samples
+there were 16464 images in the test dataset
+The accuracy of the model is 76.33657351154314%
+the length of the test loader is 247
+printing model running losses: [0.7536018641308101, 0.6274552730598835, 0.5503039977165184, 0.436007487879257, 0.37526118002756675, 0.293519844555042, 0.24358486239280966, 0.16090818195641418, 0.11884464344687083, 0.1612627467239332]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d30a0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1c00>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1019  255]
+ [ 158 1030]]
+Class Labels:
+['Negative', 'Positive']
+there were 2049 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 83.22502030869212%
+the length of the test loader is 247
+printing model running losses: [0.6771746439844127, 0.502076039105896, 0.37729162953006545, 0.3075501269592745, 0.27168595357760184, 0.31654729057345693, 0.2090759651955005, 0.14613895665956433, 0.10122419727920759, 0.05777890577954212]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3b20>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1077  197]
+ [ 143 1045]]
+Class Labels:
+['Negative', 'Positive']
+there were 2122 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 86.19008935824533%
+the length of the test loader is 247
+printing model running losses: [0.5255214503006584, 0.32340901580634457, 0.41185885563700786, 0.23964832542360132, 0.18048026784521712, 0.1346085084801384, 0.11069366545214387, 0.09060496291138817, 0.0798987783083814, 0.045834186908506346]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3cd0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1140  134]
+ [ 123 1065]]
+Class Labels:
+['Negative', 'Positive']
+there were 2205 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 89.5613322502031%
+the length of the test loader is 247
+printing model running losses: [0.6288968738380486, 0.4136062187286533, 0.31191736939779624, 0.2630707758793047, 0.2089614669851035, 0.16551618916086655, 0.12307004342056177, 0.10067985810024485, 0.08539251425232704, 0.04856790730630794]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2710>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3be0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1164  110]
+ [ 179 1009]]
+Class Labels:
+['Negative', 'Positive']
+there were 2173 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 88.26157595450853%
+the length of the test loader is 247
+printing model running losses: [0.7143564717709154, 0.4540590626471069, 0.3228215818522849, 0.26336305530984766, 0.22305507478371694, 0.18436095964642701, 0.15469638316713247, 0.12579400296478221, 0.0945738477027339, 0.06540902415195571]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3e20>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1081  193]
+ [ 114 1074]]
+Class Labels:
+['Negative', 'Positive']
+there were 2155 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 87.53046303818034%
+the length of the test loader is 247
+printing model running losses: [1.1546546339988708, 0.7295934319496155, 0.7484606564044952, 0.7226396858692169, 0.724321436882019, 0.6925843358039856, 0.7078462898731231, 0.6780326545238495, 0.6749353051185608, 0.6577816367149353]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3a90>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1146  128]
+ [ 683  505]]
+Class Labels:
+['Negative', 'Positive']
+there were 1651 correct attempts
+There were 2462 samples
+there were 12310 images in the test dataset
+The accuracy of the model is 67.05930138099106%
+the length of the test loader is 915
+printing model running losses: [0.4411674385138074, 0.3007155354069798, 0.2357194307295869, 0.18264545660884343, 0.13947920989632145, 0.10471084567741437, 0.08282980200498172, 0.06694759462492306, 0.05628575077885718, 0.046503162302286204]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3ac0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[3596  977]
+ [ 232 4337]]
+Class Labels:
+['Negative', 'Positive']
+there were 7933 correct attempts
+There were 9142 samples
+there were 45710 images in the test dataset
+The accuracy of the model is 86.77532268650187%
+the length of the test loader is 355
+printing model running losses: [0.4646278109538269, 0.24722940741254196, 0.1919501616022159, 0.1412776676461671, 0.09916874674263197, 0.060105773862836796, 0.04588283829754756, 0.030666087183243106, 0.022879629911358158, 0.01534331932989148]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2290>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1544  214]
+ [  95 1688]]
+Class Labels:
+['Negative', 'Positive']
+there were 3232 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 91.27365151087264%
+the length of the test loader is 355
+printing model running losses: [0.46039349521555367, 0.23657055043675487, 0.20736960377783567, 0.14383260925971567, 0.10333478319673044, 0.07067969513665977, 0.048910502031842364, 0.03126014614676734, 0.03225234501188122, 0.02367468525065725]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3160>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1577  181]
+ [ 133 1650]]
+Class Labels:
+['Negative', 'Positive']
+there were 3227 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 91.13244846088675%
+the length of the test loader is 355
+printing model running losses: [0.7561166903502504, 0.4360380214704594, 0.3238812979100875, 0.2570027404556602, 0.19834453180353617, 0.13557356093624037, 0.07588365117192898, 0.03454931863049037, 0.01919990251641574, 0.007139755131808676]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2380>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3e20>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1509  249]
+ [ 207 1576]]
+Class Labels:
+['Negative', 'Positive']
+there were 3085 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 87.12228184128777%
+the length of the test loader is 355
+printing model running losses: [0.5221592374882624, 0.29286955172816914, 0.22992216573901852, 0.1807487373681618, 0.13663144366082994, 0.08778168945901717, 0.05143571704664227, 0.04688664997680503, 0.031420238155340285, 0.027273833103469546]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2e30>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1470  288]
+ [  96 1687]]
+Class Labels:
+['Negative', 'Positive']
+there were 3157 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 89.15560576108444%
+the length of the test loader is 355
+printing model running losses: [0.4017576072476778, 0.24078125372231954, 0.19411770108989956, 0.13574147531265776, 0.0999303431853867, 0.06386227422350431, 0.05051362802227883, 0.040882866689860985, 0.031749235595459314, 0.023733584139929514]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d19c0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1600  158]
+ [ 104 1679]]
+Class Labels:
+['Negative', 'Positive']
+there were 3279 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 92.6009601807399%
+the length of the test loader is 355
+printing model running losses: [1.0421994606653848, 0.7055386384328206, 0.6953847527503967, 0.6954622983932495, 0.7945440212885538, 0.6942185004552205, 0.6549573580423991, 0.6190995117028554, 0.4953908453385035, 0.371541107694308]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3460>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3f40>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1013  745]
+ [ 202 1581]]
+Class Labels:
+['Negative', 'Positive']
+there were 2594 correct attempts
+There were 3541 samples
+there were 17706 images in the test dataset
+The accuracy of the model is 73.25614233267439%
+the length of the test loader is 143
+printing model running losses: [6.901063064734141, 1.061163345972697, 0.7051323453585306, 0.7241011758645376, 0.563909908135732, 0.5124600281318029, 0.482776274283727, 0.38656003524859744, 0.22248453895250955, 0.1533361477777362]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d26e0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[494 249]
+ [159 526]]
+Class Labels:
+['Negative', 'Positive']
+there were 1020 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 71.42857142857143%
+the length of the test loader is 143
+printing model running losses: [0.4684536552731879, 0.24987968592904508, 0.19783051480422728, 0.15905298965837575, 0.12028585913678398, 0.06950054426681163, 0.03842802278889849, 0.030091883537844703, 0.029494100514495115, 0.04026801774581504]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3e20>
+Confusion Matrix:
+['Negative', 'Positive']
+[[711  32]
+ [ 86 599]]
+Class Labels:
+['Negative', 'Positive']
+there were 1310 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 91.73669467787114%
+the length of the test loader is 143
+printing model running losses: [0.8206207762684739, 0.6127076734576309, 0.41908044694808494, 0.3274043517415984, 0.3071897648144187, 0.22592329379301845, 0.14602100855074496, 0.1003565275959932, 0.06712424547284875, 0.03268672622997608]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1cc0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3550>
+Confusion Matrix:
+['Negative', 'Positive']
+[[671  72]
+ [ 94 591]]
+Class Labels:
+['Negative', 'Positive']
+there were 1262 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 88.37535014005603%
+the length of the test loader is 143
+printing model running losses: [0.7671357927830903, 0.5662443807700297, 0.384971754794771, 0.2810694868122781, 0.2127147830723153, 0.17073211530093235, 0.11498143410935373, 0.08718841004721052, 0.06720039313929758, 0.028407421285375767]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3130>
+Confusion Matrix:
+['Negative', 'Positive']
+[[633 110]
+ [ 39 646]]
+Class Labels:
+['Negative', 'Positive']
+there were 1279 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 89.56582633053222%
+the length of the test loader is 143
+printing model running losses: [0.4819427583548989, 0.25269560412327935, 0.1983779189714159, 0.16169855488560705, 0.0979394979625973, 0.045895403761933525, 0.020285803441509105, 0.047427653250825895, 0.03226659421244202, 0.019768262511192496]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3f40>
+Confusion Matrix:
+['Negative', 'Positive']
+[[685  58]
+ [ 58 627]]
+Class Labels:
+['Negative', 'Positive']
+there were 1312 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 91.87675070028011%
+the length of the test loader is 143
+printing model running losses: [0.3570494288464656, 0.2206832573356732, 0.1871621661823181, 0.13595299101479424, 0.08677470650063124, 0.06102512461577482, 0.04320895597335346, 0.0343658318065871, 0.1320975676020786, 0.03220300899466243]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d20b0>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1e70>
+Confusion Matrix:
+['Negative', 'Positive']
+[[680  63]
+ [ 27 658]]
+Class Labels:
+['Negative', 'Positive']
+there were 1338 correct attempts
+There were 1428 samples
+there were 7142 images in the test dataset
+The accuracy of the model is 93.69747899159664%
+the length of the test loader is 1324
+printing model running losses: [0.36670814208554736, 0.2320105928844346, 0.1699941923185461, 0.12456883510684136, 0.09349633175845747, 0.07099925542317083, 0.05904505658247299, 0.049663873193159826, 0.04480596353687459, 0.03949851698934187]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3ac0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[6216  387]
+ [ 612 6016]]
+Class Labels:
+['Negative', 'Positive']
+there were 12232 correct attempts
+There were 13231 samples
+there were 66156 images in the test dataset
+The accuracy of the model is 92.44955029854131%
+the length of the test loader is 335
+printing model running losses: [0.385479184753894, 0.2221641620027226, 0.03379783152986827, 0.024287465175798186, 0.019745273633813894, 0.016823549717659713, 0.003781505904452735, 0.000774746234257888, 0.0012624248412334814, 7.853213861752009e-05]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2740>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1647    5]
+ [   6 1683]]
+Class Labels:
+['Negative', 'Positive']
+there were 3330 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.6707572583059%
+the length of the test loader is 335
+printing model running losses: [0.19754199967656993, 0.010780078841083595, 0.006134838744133323, 0.05836614645635727, 0.019067118971062426, 0.0023644550819197155, 0.009662052895766058, 0.008052816529475372, 0.01220905816035345, 0.0008262869813061749]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d1d50>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d36d0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1650    2]
+ [   0 1689]]
+Class Labels:
+['Negative', 'Positive']
+there were 3339 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.94013768332835%
+the length of the test loader is 335
+printing model running losses: [1.3670852099146162, 0.8077559769153595, 0.681652137211391, 0.7312602060181754, 0.7724195718765259, 0.7395351443971906, 0.7444079390593937, 0.6524803425584521, 0.5780933925083706, 0.389056139758655]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d2380>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1652    0]
+ [1683    6]]
+Class Labels:
+['Negative', 'Positive']
+there were 1658 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 49.625860520802156%
+the length of the test loader is 335
+printing model running losses: [0.7092923634339378, 0.6898592373073413, 0.6888236520044289, 0.5122939975674312, 0.029675146252125768, 0.01785202947079072, 0.004177756609038734, 0.01657085476585483, 0.0021269392799124444, 0.0004397134488068621]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1e70>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1651    1]
+ [  12 1677]]
+Class Labels:
+['Negative', 'Positive']
+there were 3328 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.61089494163424%
+the length of the test loader is 335
+printing model running losses: [0.30664580600824515, 0.010654392587084631, 0.0860980821045937, 0.038673446420239815, 0.004862587585645168, 0.002466558126535633, 5.5183139975187694e-05, 8.974125777126821e-06, 4.9390602877317716e-06, 3.069189992356101e-06]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d3310>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3070>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1651    1]
+ [   1 1688]]
+Class Labels:
+['Negative', 'Positive']
+there were 3339 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.94013768332835%
+the length of the test loader is 335
+printing model running losses: [0.7844979905370456, 0.40726020301122273, 0.09191593154396083, 0.05300966586202857, 0.024385983753535272, 0.03875122898488602, 0.02198121101210107, 0.0028865069027857833, 0.004887390115424866, 0.002713779161732154]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb423ab00>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d1ab0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1637   15]
+ [  11 1678]]
+Class Labels:
+['Negative', 'Positive']
+there were 3315 correct attempts
+There were 3341 samples
+there were 16708 images in the test dataset
+The accuracy of the model is 99.22178988326849%
+the length of the test loader is 366
+printing model running losses: [0.18012907443602705, 0.09289976471792906, 0.07549674026253847, 0.0341842222931105, 0.03370810344417854, 0.016345943691403873, 0.019963320197480417, 0.01290642915448026, 0.07038397245288, 0.013057200369788262]
+<torch.utils.data.dataloader.DataLoader object at 0x2abb8e269570>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d36d0>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1772   55]
+ [  17 1808]]
+Class Labels:
+['Negative', 'Positive']
+there were 3580 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 98.02847754654984%
+the length of the test loader is 366
+printing model running losses: [0.21174435373798994, 0.0815683420533699, 0.05620378175028918, 0.068820906272025, 0.02789218152963972, 0.0213650121484483, 0.015296953228413016, 0.009994533622450414, 0.017436334630708195, 0.019943698200147963]
+<torch.utils.data.dataloader.DataLoader object at 0x2abbb48d2290>
+Batch size: 10
+Sampler: <torch.utils.data.sampler.SubsetRandomSampler object at 0x2abbb48d3550>
+Confusion Matrix:
+['Negative', 'Positive']
+[[1765   62    0]
+ [  37 1787    1]
+ [   0    0    0]]
+Class Labels:
+['Negative', 'Positive']
+there were 3552 correct attempts
+There were 3652 samples
+there were 18262 images in the test dataset
+The accuracy of the model is 97.2617743702081%
+Traceback (most recent call last):
+  File "/user/work/jw20708/msci/project/image_classifier/machine_learning/neural_network_test.py", line 301, in <module>
+    confusion_matrix_df[model] = cm.flatten()
+  File "/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/pandas/core/frame.py", line 4091, in __setitem__
+    self._set_item(key, value)
+  File "/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/pandas/core/frame.py", line 4300, in _set_item
+    value, refs = self._sanitize_column(value)
+  File "/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/pandas/core/frame.py", line 5039, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/user/home/jw20708/.conda/envs/classifier_env/lib/python3.10/site-packages/pandas/core/common.py", line 561, in require_length_match
+    raise ValueError(
+ValueError: Length of values (9) does not match length of index (4)
